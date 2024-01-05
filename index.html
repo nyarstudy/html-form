@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>User registration form</h1>
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <br />
+    <br />
+    <!-- Форма -->
+    <form>
+      <label>
+        <span>FIRST NAME*:</span>
+        <input type="text" placeholder="first name" required />
+      </label>
+      <br />
+      <br />
+      <label>
+        <span>LAST NAME:</span>
+        <input type="text" placeholder="last name" />
+      </label>
+      <br />
+      <br />
+      <label>
+        <span>EMAIL*:</span>
+        <input type="email" placeholder="email" required />
+      </label>
+      <br />
+      <br />
+      <div>
+        <span>LANGUAGES:</span>
+        <label>
+          <input type="checkbox" name="english" />
+          <span>English</span>
+        </label>
+        <label>
+          <input type="checkbox" name="spanish" />
+          <span>Spanish</span>
+        </label>
+        <label>
+          <input type="checkbox" name="ukrainian" />
+          <span>Ukrainian</span>
+        </label>
+      </div>
+      <br />
+      <br />
+      <label>
+        <span>YOUR RESUME:</span>
+        <input type="file" />
+      </label>
+      <br />
+      <br />
+      <div>
+        <span>YOUR AGE:</span>
+        <label>
+          <input type="radio" name="age" />
+          <span>&#60;18</span>
+        </label>
+        <label>
+          <input type="radio" name="age" />
+          <span>>18 && &#60;60</span>
+        </label>
+        <label>
+          <input type="radio" name="age" />
+          <span>&#62;60</span>
+        </label>
+      </div>
+      <br>
+      <br>
+      <div>
+        <button type="button">SEND</button>
+        <button type="reset">RESET</button>
+      </div>
+    </form>
+    <br />
+    <br />
+    <hr />
+    <hr />
+    <hr />
+    <div>
+      © HTML 2024
+    </div>
+  </body>
+</html>
